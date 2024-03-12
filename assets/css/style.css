@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     border: 0;
     padding: 0;
@@ -6,30 +6,33 @@
 }
 
 /* Estilos de barra de navegación */
-.navbar-brand{
+.navbar-brand {
     font-family: "Pacifico", cursive;
     font-size: 25px;
     margin: 0 1.2rem;
 }
-.nav-link{
+
+.nav-link {
     color: white;
 }
-.navbar-nav{
+
+.navbar-nav {
     margin: auto 1.2rem;
 }
-.nav-item{
+
+.nav-item {
     padding-left: 40px;
 }
 
 /* Estilos de encabezados de secciones */
-h2{
+h2 {
     font-size: 2.5rem;
     margin-top: 2.5rem;
     margin-bottom: 3rem;
 }
 
 /* Estilo sección quiénes somos */
-.nosotros{
+.nosotros {
     margin: 3rem auto;
 }
 
@@ -38,33 +41,43 @@ h2{
     background-color: #212121;
     color: white;
 }
- .card-img-top {
+
+.card-img-top {
     width: 100%;
     height: 30vh;
     object-fit: cover;
 }
 
-/* Estilo de formulario */
-.formulario{
-        border-radius: 30px;
-}
-.contacto p{
-    text-align: center;
-}
-/* Estilo de footer */
-footer h3{
-    font-family: "Pacifico", cursive;
-    font-size: 29px;
-}
-footer i:hover{
-    color:cyan;
-}
-footer h4{
-        font-size: 20px;
-}
-
+/* Estilo sección preguntas */
 .accordion-button:not(.collapsed) {
     background-color: #212121;
     color: cyan;
 }
 
+/* Estilo de formulario */
+.formulario {
+    border-radius: 30px;
+}
+
+.contacto p {
+    text-align: center;
+}
+
+/* Estilo de footer */
+footer h3 {
+    font-family: "Pacifico", cursive;
+    font-size: 29px;
+}
+
+footer i:hover {
+    color: cyan;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+hr {
+    border: 1.5px gray solid;
+
+}
