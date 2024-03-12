@@ -19,7 +19,7 @@
 </head>
 <body>
     <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top px-5">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="./assets/img/viajes.svg" width="30px" alt="logotipo">
@@ -78,8 +78,8 @@
     </header>
 
     <main>
-        <!-- Presentación en 3 párrafos -->
-        <section class="container text-center d-none d-md-block" id="nosotros">
+        <!-- Presentación en 3 párrafos, debe desaparecer en tamaños pequeños de pantalla -->
+        <section class="container text-center d-none d-md-block py-5" id="nosotros">
             <h2>Quiénes somos</h2>
             <div class="row">
                 <div class="col-12 col-md-4">
@@ -106,8 +106,8 @@
         </section>
 
         <!-- 4 cards -->
-        <section class="container" id="destinos">
-            <h2 class="text-center">Destinos destacados</h2>
+        <section class="container py-5" id="destinos">
+            <h2 class="text-center py-4">Destinos destacados</h2>
             <div class="row">
                 <!-- 1card -->
                 <div class="col-12 col-md-6 col-lg-3">
@@ -158,8 +158,8 @@
         </section>
 
         <!-- Formulario de contacto -->
-        <section id="contacto">
-            <h2>Contáctanos</h2>
+        <section class="container py-5" id="contacto">
+            <h2 class="text-center">Contáctanos</h2>
             <form>
                 <div class="mb-3">
                     <label for="ExampleInputText1" class="form-label">Nombre</label>
@@ -191,23 +191,22 @@
     </main>
 
     <!-- Pie de página -->
-    <footer>
+    <footer class="bg-dark text-white py-2">
         <h2>Viajes Chile</h2>
         <div class="">
             <h4>Síguenos en:</h3>
-            <a href="https://www.facebook.com/" target="_blank" class="link-dark"><i class="fa-brands fa-square-facebook fa-3x"></i></a>
-            <a href="https://twitter.com/" target="_blank" class="link-dark"><i class="fa-brands fa-square-x-twitter fa-3x"></i></a>
-            <a href="https://www.instagram.com/" target="_blank" class="link-dark"><i class="fa-brands fa-square-instagram fa-3x"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" class="link-light"><i class="fa-brands fa-square-facebook fa-3x"></i></a>
+            <a href="https://twitter.com/" target="_blank" class="link-light"><i class="fa-brands fa-square-x-twitter fa-3x"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" class="link-light"><i class="fa-brands fa-square-instagram fa-3x"></i></a>
         </div>
         <hr>
-        <p>© 2024 Viajes Chile. Todos los derechos reservados.</p>
+        <p class="text-center">© 2024 Viajes Chile. Todos los derechos reservados.</p>
     </footer>
-    <!--  -->
+    <!-- PopperJS versión 2.11.6 -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <!-- BootstrapJS versión 5.2.3 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-    <!-- Jquery versión 3.7.1 -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    
+
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
